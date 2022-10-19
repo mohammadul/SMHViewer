@@ -1,0 +1,169 @@
+            SMHViewer 2.0.1 MultiViewer Documentation  
+-------------------------------------------------------  
+INTRODUCTION
+---
+SMHViewer MultiViewer is an OFF/PLY/ASC/XYZ/BINv1/BundlerOUT/NVM multi model viewer designed by Sk. Mohammadul Haque.  
+   
+
+COMMAND-LINE SYNTAX
+---
+The default command-line syntax is given as follows.  
+multiviewer [-f] [-c cfg_fname] file1 [file2 [file3 [...]]]  
+   
+
+PARAMETERS
+---
+The parameters are given as follows.  
+-f opens the viewer in a fullscreen mode (optional).  
+-c cfg_fname loads infra configuration (optional).  
+file1 - name of the first 3D model file.  
+file2, file3, ... - names of the second, third, ... 3D model files (optional).  
+   
+
+INTERACTIONS
+---
+There are numerous keyboard shortcuts which can be used in conjunction with the mouse.  
+All the functions are given as follows.  
+   
+Mouse interaction
+----
+Left Button - rotates the model.  
+Middle Button - changes the depth.  
+Right Button - pans in the x-y plane.  
+<Shift>+Scroll - changes the field of view.  
+<Delete> - toggles between object-centric and eye-centric views.  
+   
+Keyboard interaction
+----
+Rotation
+-----
+a - rotates model in negative y-axis.  
+d - rotates model in positive y-axis.  
+w - rotates model in negative x-axis.  
+s - rotates model in positive x-axis.  
+z - rotates model in positive z-axis.  
+x - rotates model in negative z-axis.  
+
+Depth
+-----
+up - increases the depth.  
+down - decreases the depth.  
+
+Rendering
+-----
+c - changes rendering mode (0-flat/1-smooth/2-smooth_with_edge).  
+1 - decreases edge display angle threshold.  
+2 - increases edge display angle threshold.  
+v - toggles wireframe rendering.  
+p - toggles pointcloud rendering.  
+e - toggles lighting.  
+END - toggles integral vertex scalar colour rendering.  
+u - increases specularity.  
+j - decreases specularity.  
+i - increases shininess.  
+k - decreases shininess.  
++ - increases point size.  
+- - decreases point size.  
+l - toggles vertex normal rendering.  
+f - toggles face normal rendering.  
+o - decreases normal length.  
+p - increases normal length.  
+
+Lighting
+-----
+r - increases red value.  
+t - decreases red value.  
+g - increases green value.  
+h - decreases green value.  
+b - increases blue value.  
+n - decreases blue value.  
+\ - toggles lighting and background color.  
+' - toggles double side lighting.  
+
+Capturing
+-----
+m - saves screen to screenshot%d.png in current folder.  
+; - toggles transparent background.  
+
+Miscellaneous
+-----
+left - displays previous model  
+right - displays next model  
+F1 - displays about multiviewer.  
+F11 - toggles fullscreen mode.  
+TAB - displays mesh information.  
+, - displays axes.  
+` - toggles stereo rendering.  
+[ - decreases stereo baseline.  
+] - increases stereo baseline.  
+/ - toggles stereo red/cyan and green/magenta.  
+
+Pen-mode
+-----
+<Home> - toggles pen mode.  
+1,2,...,8 - switches pen color.  
+e - toggles eraser.  
+p - toggles pen menu.  
+c - clears screen.  
+   
+
+Configuration
+-----
+The following are accepted configurations.  
+prev_model  
+next_model  
+exit  
+height (0,mxh]  
+width (0,mxw]  
+shininess (5-100)  
+spec (0-1)  
+fov (2.0-90.0)  
+psize (1-10)  
+pcloud 0/1  
+wireframe 0/1  
+axis 0/1  
+lighting 0/1  
+vnorm 0/1  
+fnorm 0/1  
+semantics 0/1  
+transbg 0/1  
+info 0/1  
+render_type 0/1/2 (flat/smooth/smooth_with_edges)  
+bg_color r/g/b (0-1)  
+lt_color r/g/b (0-1)  
+pos x y z  
+rot ax ay az  
+save <fname>  
+text posx posy <text>  
+   
+
+----
+   
+SMHViewer 2.0.1 uses MeshLib, GLStereo, SDL 2.0, SDL_ttf, FreeType, LibPNG and Zlib libraries.  
+----
+SMHViewer MultiViewer 
+===
+MIT License
+
+Copyright (c) 2022 Sk. Mohammadul Haque
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+If you find any bug, please report at https://github.com/mohammadul/SMHViewer/issues.  
+For more details, visit https://github.com/mohammadul/SMHViewer.   

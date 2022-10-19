@@ -1,0 +1,27 @@
+properties
+==============
+prev_model
+next_model
+exit
+height (0,mxh]
+width (0,mxw]
+shininess (5-100)
+spec (0-1)
+fov (2.0-90.0)
+psize (1-10)
+pcloud 0/1
+wireframe 0/1
+axis 0/1
+lighting 0/1
+vnorm 0/1
+fnorm 0/1
+semantics 0/1
+transbg 0/1
+info 0/1
+render_type 0/1/2 (flat/smooth/smooth_with_edges)
+bg_color r/g/b (0-1)
+lt_color r/g/b (0-1)
+pos x y z
+rot ax ay az
+save <fname>
+text posx posy <text>
