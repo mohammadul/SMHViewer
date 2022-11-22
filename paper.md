@@ -6,6 +6,10 @@ tags:
   - CV
 authors:
   - name: Sk. Mohammadul Haque
+    affiliation: 1
+affiliations:
+  - name: Self-work
+    index: 1
 date: 1 August 2022
 bibliography: paper.bib
 ---
@@ -17,7 +21,7 @@ We present a useful software written in C++ that can be used for a variety of pu
 
 # Statement of need
 
-`SMHViewer` is a 3D point cloud and mesh model viewer. It is written in C++ and uses OpenGL to display and render 3D models of various formats. It supports namely, multiple variants of OFF format (the standard OFF format, OFF formats with additional vertex colours,  vertex normals, etc.), partially PLY [@TurkPLY] format, ASC format, CloudCompare [@CloudCompare] BIN version 1 format, COLMAP [@LCOLMAP] BIN format, NVM [@WuVisualSFM] format, Bundle [@SnavelyBundler] OUT format, XYZ format files. The user interface is shown in \autoref{fig:uisample}.
+`SMHViewer` is a 3D point cloud and mesh model viewer. It is written in C++ and uses OpenGL to display and render 3D models of various formats. It supports namely, multiple variants of OFF format (the standard OFF format, OFF formats with additional vertex colours,  vertex normals, etc.), partially PLY [@TurkPLY] format, ASC format, CloudCompare [@CloudCompare] BIN version 1 format, COLMAP [@LCOLMAP] BIN format, NVM [@WuVisualSFM] format, Bundle [@SnavelyBundler] OUT format, XYZ format files. The user interface is shown in \autoref{fig:uisample}. The sample model used is available at [@data]
 
 ![User interface for SMHViewer.\label{fig:uisample}](figures/ui.png){ width=80% }
 
