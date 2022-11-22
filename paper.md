@@ -44,11 +44,11 @@ Mouse controls comprise rotation, panning, changing field-of-view, toggling betw
    
 ### Keyboard Controls
 
-Keyboard controls comprise rotation, panning, changing lighting  and other rendering configurations. 
+Keyboard controls comprise rotation, panning, changing lighting and other rendering configurations. 
 
 ## Rendering-modes
 
-There are three surface rendering modes namely, flat-mode, smooth-mode and finally smooth mode with edges. While the flat mode is rendered using flat triangles without using any additional supplied or computed vertex normals, the smooth-mode uses the vertex-normals either using the supplied ones or if possible by computing. The third mode is one that it checkse whether a vertex belongs to a edge or not, and then it uses smooth-shading if it does not. 
+There are three surface rendering modes namely, flat-mode, smooth-mode and finally smooth mode with edges. While the flat mode is rendered using flat triangles without using any additional supplied or computed vertex normals, the smooth-mode uses the vertex-normals either using the supplied ones or if possible by computing. The third mode is one that it checks whether a vertex belongs to an edge or not, and then it uses smooth-shading if it does not. 
 
 A number of rendering modes are shown in \autoref{fig:rmode00}, \autoref{fig:rmode01}, \autoref{fig:rmode02}, and \autoref{fig:rmode03}.
 
