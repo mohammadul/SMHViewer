@@ -7,8 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_path(GLSTEREO_INCLUDE_DIR glstereo.h)
 find_library(GLSTEREO_RELEASE_LIB glstereo)
-find_path(MESHLIB_INCLUDE_DIR glstereo.h)
-find_library(MESHLIB_RELEASE_LIB glstereo)
+find_path(MESHLIB_INCLUDE_DIR meshlib.h)
+find_library(MESHLIB_RELEASE_LIB meshlib)
 
 include_directories(mvparser PUBLIC ${GLSTEREO_INCLUDE_DIR} mvparser/include)
 add_library(mvparser OBJECT mvparser/src/cfgpreter.cpp)
