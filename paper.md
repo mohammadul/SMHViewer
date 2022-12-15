@@ -69,7 +69,7 @@ Moreover, screenshots can be taken with various configurations.
 ## Pen-mode
 
 A distinct feature of the software is the pen-mode. In the pen-mode one can use a normal graphic pen or a pointer to write or mark on an overlay in front of the 3D rendered model. This mode has the basic utilities like pen-colour selection, eraser, screen clearing, etc.
- A view of the pen-mode is shown in Figure \autoref{fig:penmode}.
+ A view of the pen-mode is shown in \autoref{fig:penmode}.
  
 ![Pen-mode for SMHViewer.\label{fig:penmode}](figures/screenshot10.png){ width=42% }
 
@@ -80,9 +80,9 @@ One feature of the software is the configurations that can be supplied to the ex
 ## Data Generation
 
 One major feature of the software SMHViewer is that it can be used to generate data from 3D models. This is very useful for research purposes in the field of 3D reconstruction and other related areas. We describe its uses in the following.
-In 3D reconstruction and multiview photometry, it is often required to use synthetic datasets which are used to test and analyse the performances of reconstruction methods. In such cases, multiple views of known geometries are generated as colour images. The software can generate such data as required easily. Figure \autoref{fig:bunny} shows such generated sample images. The sample model used is available at [@data2].
+In 3D reconstruction and multiview photometry, it is often required to use synthetic datasets which are used to test and analyse the performances of reconstruction methods. In such cases, multiple views of known geometries are generated as colour images. The software can generate such data as required easily. \autoref{fig:bunny} shows such generated sample images. The sample model used is available at [@data2].
 
-![Bunny dataset generation.\label{fig:bunny}](figures/bunnygenerate.png){ width=42% }.
+![Bunny dataset generation.\label{fig:bunny}](figures/bunnygenerate.png){ width=52% }.
 
 This is generated using the following commands from the configurations files.
 
