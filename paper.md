@@ -82,7 +82,7 @@ One feature of the software is the configurations that can be supplied to the ex
 One major feature of the software SMHViewer is that it can be used to generate data from 3D models. This is very useful for research purposes in the field of 3D reconstruction and other related areas. We describe its uses in the following.
 In 3D reconstruction and multiview photometry, it is often required to use synthetic datasets which are used to test and analyse the performances of reconstruction methods. In such cases, multiple views of known geometries are generated as colour images. The software can generate such data as required easily. \autoref{fig:bunny} shows such generated sample images. The sample model used is available at [@data2].
 
-![Bunny dataset generation.\label{fig:bunny}](figures/bunnygenerate.png){ width=52% }.
+![Bunny dataset generation.\label{fig:bunny}](figures/bunnygenerate.png){ width=52% }
 
 This is generated using the following commands from the configurations files.
 
